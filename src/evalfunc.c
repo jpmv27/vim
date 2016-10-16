@@ -5426,6 +5426,7 @@ f_has(typval_T *argvars, typval_T *rettv)
     int		n = FALSE;
     static char	*(has_list[]) =
     {
+        "E924fix",
 #ifdef AMIGA
 	"amiga",
 # ifdef FEAT_ARP

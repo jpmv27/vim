@@ -1,0 +1,12 @@
+CFLAGS="-O -fPIC -Wformat" \
+./configure --with-tlib=ncurses --with-features=huge \
+--enable-multibyte \
+--enable-rubyinterp=dynamic \
+--enable-pythoninterp=dynamic --with-python-config-dir=/usr/lib64/python2.7/config \
+--enable-python3interp=dynamic --with-python3-config-dir=/usr/lib64/python3.5/config-3.5m \
+--enable-perlinterp=dynamic \
+--enable-luainterp=dynamic \
+--enable-tclinterp=dynamic \
+--enable-gui=gtk2 \
+--enable-cscope \
+--prefix=/usr/local
