@@ -1935,6 +1935,11 @@ static struct vimoption options[] =
 			    (char_u *)NULL, PV_NONE,
 #endif
 			    {(char_u *)100L, (char_u *)100L} SCRIPTID_INIT},
+
+    {"newqfacmd",   NULL,   P_BOOL|P_VI_DEF,
+			    (char_u *)&p_nqfa, PV_NONE,
+			    {(char_u *)TRUE, (char_u *)0L} SCRIPTID_INIT},
+
     {"novice",	    NULL,   P_BOOL|P_VI_DEF,
 			    (char_u *)NULL, PV_NONE,
 			    {(char_u *)FALSE, (char_u *)0L} SCRIPTID_INIT},

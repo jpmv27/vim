@@ -670,6 +670,7 @@ EXTERN int	p_more;		/* 'more' */
 #ifdef FEAT_MZSCHEME
 EXTERN long	p_mzq;		/* 'mzquantum */
 #endif
+EXTERN int	p_nqfa;		/* 'newqfacmd' */
 #if defined(MSWIN)
 EXTERN int	p_odev;		/* 'opendevice' */
 #endif

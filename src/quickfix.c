@@ -4875,7 +4875,7 @@ ex_cbuffer(exarg_T *eap)
 	case CMD_laddbuffer:	au_name = (char_u *)"laddbuffer"; break;
 	default: break;
     }
-    if (au_name != NULL)
+    if (au_name != NULL && p_nqfa)
     {
 	apply_autocmds(EVENT_QUICKFIXCMDPRE, au_name,
 					       curbuf->b_fname, TRUE, curbuf);
@@ -4966,7 +4966,7 @@ ex_cexpr(exarg_T *eap)
 	case CMD_laddexpr:  au_name = (char_u *)"laddexpr"; break;
 	default: break;
     }
-    if (au_name != NULL)
+    if (au_name != NULL && p_nqfa)
     {
 	apply_autocmds(EVENT_QUICKFIXCMDPRE, au_name,
 					       curbuf->b_fname, TRUE, curbuf);
