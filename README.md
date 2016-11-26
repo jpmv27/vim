@@ -5,6 +5,7 @@ Changes:
 - Fix loclist issue causing E924 error (merged upstream)
 - Add `custom_configure` script
 - Add custom option `newqfacmd` to help debug E926 errors
+- Update netrw to v162f
 
 Changes are licensed under the same terms as the original
 
