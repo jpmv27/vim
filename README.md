@@ -1,3 +1,15 @@
+**This is a FORK of https://github.com/vim/vim**
+
+Changes:
+
+- Fix loclist issue causing E924 error (merged upstream)
+- Add `custom_configure` script
+- Add custom option `newqfacmd` to help debug E926 errors
+
+Changes are licensed under the same terms as the original
+
+# Original README
+
 `README.md` for version 8.0 of Vim: Vi IMproved.
 [![Build Status](https://travis-ci.org/vim/vim.svg?branch=master)](https://travis-ci.org/vim/vim)
 [![Coverage Status](https://coveralls.io/repos/vim/vim/badge.svg?branch=master&service=github)](https://coveralls.io/github/vim/vim?branch=master)
