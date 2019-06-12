@@ -1869,7 +1869,7 @@ static struct vimoption options[] =
     {"modeline",    "ml",   P_BOOL|P_VIM,
 			    (char_u *)&p_ml, PV_ML,
 			    {(char_u *)FALSE, (char_u *)TRUE} SCRIPTID_INIT},
-    {"modelineexpr", "mle",  P_BOOL|P_VI_DEF,
+    {"modelineexpr", "mle",  P_BOOL|P_VI_DEF|P_SECURE,
 			    (char_u *)&p_mle, PV_NONE,
 			    {(char_u *)FALSE, (char_u *)0L} SCRIPTID_INIT},
     {"modelines",   "mls",  P_NUM|P_VI_DEF,
